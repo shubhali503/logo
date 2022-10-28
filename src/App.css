@@ -1,0 +1,32 @@
+.logo{
+  width: 300px;
+  height: 300px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+  box-shadow:
+    inset 35px 0 0 0 rgba(153, 217, 140, 0.7),
+    inset -35px 0 0 0 rgba(222, 226, 230, 0.7),
+    inset 0 35px 0 0 rgba(247, 157, 101, 1),
+    inset 0 -35px 0 0 rgba(0, 180, 216, 1);
+}
+
+.logo-content{
+  transform: rotate(-45deg);
+  text-align: center;
+}
+
+h1, p{
+  margin: 0;
+  color: white;
+}
+
+h1{
+  font-weight: 600;
+}
+
+span{
+  color: #f9844a;
+}
